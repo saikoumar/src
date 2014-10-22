@@ -11,7 +11,7 @@ public class Specialite {
 	private Collection<Specialiste> lesspecialistes;
 	
 	public Specialite(String nom) {
-		this.nom = nom;
+		this.nom =;
 		this.lespatients=new HashMap<String,Patient> ();
 		this.lesfichessuivies=new HashMap<String,FicheSuivie>();
 		this.lesspecialistes=new ArrayList<Specialiste> ();
