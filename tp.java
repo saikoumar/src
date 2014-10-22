@@ -10,6 +10,7 @@ public class Specialite {
 	private HashMap<String,FicheSuivie> lesfichessuivies;
 	private Collection<Specialiste> lesspecialistes;
 	
+	/* constructeur :sali */
 	public Specialite(String nom) {
 		this.nom =conflit_test;
 		this.lespatients=new HashMap<String,Patient> ();
